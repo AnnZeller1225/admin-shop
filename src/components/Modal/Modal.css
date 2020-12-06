@@ -1,0 +1,135 @@
+.modal-wrap {
+    background-color: #E5E5E5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal {
+    width: 100%;
+    max-width: 468px;
+    padding: 29px 27px;
+    background-color: #fffefe;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.modal__title {
+    font-size: 18px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+.modal-item {
+    margin: 0px 0 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 11px;
+}
+
+.modal-item__inp {
+    display: flex;
+    align-items: center;
+}
+
+.modal-item__inp select {
+    outline: none;
+    width: 100%;
+    min-width: 400px;
+    padding: 5px 0;
+    border: 1px solid #C4C4C4;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.modal-item__inp input {
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 365px;
+    padding: 6px;
+    margin-top: 7px;
+    margin-right: 10px;
+    border: 1px solid #C4C4C4;
+}
+
+.modal-item__inp--longer input {
+    min-width: 400px;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 240px;
+    margin: 34px auto;
+}
+
+.modal-btns {
+    position: relative;
+    margin-top:5px;
+}
+
+.modal-btns span {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    max-width: 450px;
+    padding: 11px 0;
+    display: block;
+    background: rgba(229, 229, 229, 0.3);
+    border: 1px solid #C4C4C4;
+    font-size: 11px;
+}
+
+.modal-btns .modal-btn {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+    background: rgba(229, 229, 229, 0.3);
+    border: 1px solid #C4C4C4;
+    opacity: 0;
+
+}
+.btn-send {
+    background-color: #6EE064;
+    padding: 6px 29px;
+}
+
+.cansel {
+    text-decoration: underline;
+    color: #0085FF;
+}
+.close-btns {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    width: 30px;
+    height: 30px;
+}
+.close-btn1, .close-btn2  {
+    position: relative;
+    outline: 1px solid #000;
+    width: 20px;
+    top: 15px;
+    left: 5px;
+
+}
+.close-btn1 {
+    transform: rotate(45deg);
+}
+.close-btn2 {
+    transform: rotate(-45deg);
+}
